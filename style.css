@@ -179,8 +179,12 @@ header {
              animation-iteration-count: infinite;
              animation-direction: alternate;
       }
-      h1 { font-size: 5em; }
-      p  { font-size: 3em; }
+      h1 { font-size: 5em;
+           overflow: hidden;
+           white-space: nowrap; }
+      p  { font-size: 3em;
+           overflow: hidden;
+           white-space: nowrap;}
       
       @keyframes textflicker {
         from {
