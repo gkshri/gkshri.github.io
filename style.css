@@ -164,14 +164,15 @@ header {
   transform: translate(-50%, -50%);
   color: rgb(0, 0, 0);
   text-align: center;
+  mix-blend-mode: lighten
 }
 h1 {
   margin: 0;
   font-size: 6rem;
   font-family: sans-serif;
   white-space: nowrap;
-  filter: drop-shadow(.05em .05em rgb(0, 245, 253));
-  mix-blend-mode: difference
+  filter: drop-shadow(.04em .04em rgb(255, 255, 0));
+  mix-blend-mode: lighten
 }
 h2 {
   font-size: 2rem;
@@ -179,8 +180,8 @@ h2 {
 p {
   margin: 0;
   font-size: 3rem;
-  filter: drop-shadow(.05em .05em rgb(0, 255, 242));
-  mix-blend-mode: difference
+  filter: drop-shadow(.04em .04em rgb(255, 255, 0));
+  mix-blend-mode: lighten
 }
 
 main {
