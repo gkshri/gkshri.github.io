@@ -170,6 +170,8 @@ h1 {
   font-size: 6rem;
   font-family: sans-serif;
   white-space: nowrap;
+  filter: drop-shadow(.05em .05em rgb(0, 245, 253));
+  mix-blend-mode: difference
 }
 h2 {
   font-size: 2rem;
@@ -177,6 +179,8 @@ h2 {
 p {
   margin: 0;
   font-size: 3rem;
+  filter: drop-shadow(.05em .05em rgb(0, 255, 242));
+  mix-blend-mode: difference
 }
 
 main {
