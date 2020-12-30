@@ -184,7 +184,9 @@ header {
            white-space: nowrap; }
       p  { font-size: 3em;
            overflow: hidden;
-           white-space: nowrap;}
+           white-space: nowrap;
+           line-height: 50px;
+        }
       
       @keyframes textflicker {
         from {
